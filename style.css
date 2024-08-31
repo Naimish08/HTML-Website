@@ -1,15 +1,24 @@
-html{
-    background-color:#FF9843;
+:root {
+    --primary-color: #FF9843;
 }
-video{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+body {
+    background-color: var(--primary-color);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 18px auto;
+}
+
+video {
     width: 50%;
     padding: 18px;
 }
-h1{
+
+h1 {
     text-align: center;
-    font-family:Exo 2;
-    color:darkmagenta;
+    font-family: Exo 2;
+    color: darkmagenta;
 }
